@@ -19,7 +19,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[django::default]
+      - recipe[django::git_install]
     verifier:
       inspec_tests:
         - test/integration/default
