@@ -17,9 +17,9 @@ platforms:
 #   - name: centos-7
 
 suites:
-  - name: default
+  - name: virtualenv
     run_list:
-      - recipe[django::default]
+      - recipe[django::virtualenv_install]
     verifier:
       inspec_tests:
         - test/integration/default
