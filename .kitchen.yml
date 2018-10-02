@@ -20,7 +20,10 @@ suites:
   - name: default
     run_list:
       - recipe[django::default]
+  - name: pip
+    run_list:
+      - recipe[django::pip_install]
     verifier:
-      inspec_tests:
+        inspec_tests:
         - test/integration/default
     attributes:
