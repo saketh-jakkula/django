@@ -25,5 +25,5 @@ suites:
       - recipe[django::pip_install]
     verifier:
         inspec_tests:
-        - test/integration/default
+        - test/integration/default/
     attributes:
