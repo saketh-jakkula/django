@@ -1,4 +1,4 @@
 # django
 
-TODO: Enter the cookbook description here.
+Chef practise cookbook for installing django on Ubuntu.
 
